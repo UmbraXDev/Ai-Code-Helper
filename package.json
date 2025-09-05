@@ -1,0 +1,51 @@
+{
+  "name": "ai-code-helper-bot",
+  "version": "2.0.0",
+  "description": "Advanced Discord bot for code assistance using Gemini AI",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "deploy": "node deploy-commands.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "logs": "tail -f logs/bot.log",
+    "setup": "npm install && node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "gemini",
+    "code",
+    "programming",
+    "assistant",
+    "debugging",
+    "optimization"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@google/generative-ai": "^0.3.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-code-helper-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-code-helper-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-code-helper-bot#readme"
+}
