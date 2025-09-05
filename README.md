@@ -90,5 +90,3 @@ We believe that coding should be collaborative, and that’s why we’ve created
 With the AI Code Helper Bot, you don’t have to waste hours searching for solutions. It gives you instant guidance, encourages better coding practices, and grows with you as you learn. Whether you’re coding for school, building projects, or solving real-world problems, this bot is a reliable companion that makes programming smoother, smarter, and more fun.
 
 ---
-
-Do you also want me to add a **"Commands" section** (like `/help`, `/explain`, etc.) so users know what the bot can do once running?
